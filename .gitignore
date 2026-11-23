@@ -1,0 +1,18 @@
+# Local secrets and credentials; examples must contain placeholders only.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+
+# Personal provider settings and session data; shared instructions/skills stay visible.
+.claude/settings.local.json
+CLAUDE.local.md
+.claude/projects/
+.claude/sessions/
+.claude/history.jsonl
+.codex/
+
+# Local machine files.
+.DS_Store
